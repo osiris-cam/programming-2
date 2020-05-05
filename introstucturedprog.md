@@ -30,5 +30,26 @@ Programming by specifying the result you want, not how to get it. The programmer
     - String (e.g. abc)
     - Void (e.g. no data)
   - Composite: is one whose values are composed of component values. One example is an array.
-  - Abstract : are mathematical models of a set of data values or information that share similar behavior or qualities and that can be specified and identified independent of specific implementations. An abstract data type is defined in term of its data items or its associated operations rather than by its implementation.
-version 3
+  - Abstract : are mathematical models of a set of data values or information that share similar behavior or qualities and that can be specified and identified independent of specific implementations. An abstract data type is defined in term of its data items or its associated operations rather than by its implementation.  
+- Memory space for each data type:
+  - Character: 1 byte
+  - Unsigned character: 1 byte
+  - Signed Character: 1 byte
+  - Integer: 2 or 4 bytes
+  - Unsigned Integer: 2 or 4 bytes
+  - Short: 2 bytes
+  - Unsigned Short: 2 bytes
+  - Long: 8 bytes
+  - Unsigned Long: 8 bytes
+- Range of values of each data type:
+  - Character: -128 to 127 or 0 to 255
+  - Unsigned character: 0 to 255
+  - Signed Character: -128 to 127
+  - Integer: -32,768 to 32,767 or -2,147,483,648 to 2,147,483,647
+  - Unsigned Integer: 0 to 65,535 or 0 to 4,294,967,295
+  - Short: -32,768 to 32,767
+  - Unsigned Short: 0 to 65,535
+  - Long: -9223372036854775808 to 9223372036854775807
+  - Unsigned Long: 0 to 18446744073709551615
+- Data type conversion: refers to either implicitly or explicitly changing a value from one data type storage format to another, e.g. a 16-bit integer to a 32-bit integer.
+version 4 

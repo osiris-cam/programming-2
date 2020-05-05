@@ -19,4 +19,16 @@ Programming by specifying the result you want, not how to get it. The programmer
 - Reserved Words: are terms or phrases appropriated for special use that may not be utilized in the creation of variable names.
 - Types of data: is a type together with a collection of operations to manipulate the type.
   - Primitive: are predefined types of data, which are supported by the programming language. 
-  Version 2
+    - Boolean (e.g. True or False)
+    - Character (e.g. abc)
+    - Date (e.g. 03/01/2017)
+    - Double (e.g. 1.87651234355743E308)
+    - Floating-point number (e.g. 1.23)
+    - Integer (e.g. 123)
+    - Long (e.g. 123456789)
+    - Short (e.g. 0)
+    - String (e.g. abc)
+    - Void (e.g. no data)
+  - Composite: is one whose values are composed of component values. One example is an array.
+  - Abstract : are mathematical models of a set of data values or information that share similar behavior or qualities and that can be specified and identified independent of specific implementations. An abstract data type is defined in term of its data items or its associated operations rather than by its implementation.
+version 3

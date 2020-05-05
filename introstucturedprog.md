@@ -52,4 +52,21 @@ Programming by specifying the result you want, not how to get it. The programmer
   - Long: -9223372036854775808 to 9223372036854775807
   - Unsigned Long: 0 to 18446744073709551615
 - Data type conversion: refers to either implicitly or explicitly changing a value from one data type storage format to another, e.g. a 16-bit integer to a 32-bit integer.
-version 4 
+ 
+## Operators
+- Conditional: is an operator that returns one of two values depending on the result of an expression. It is represent with “?:”.
+- Logical: Returns the result of a boolean operation.
+  - Negation: It represents with “!”.
+  - AND: It represents with “&&”.
+  - Inclusive Or: It represents with “l l”.
+- Relationship: are used to compare values of two variables.
+  - Greater than “>”
+  - Greater than or equal to “>=”
+  - Less than “<”
+  - Less than or equal to “<=”
+  - Equal to “==”
+  - Not equal to “!=”
+
+## Version control
+
+version 5

@@ -1,26 +1,13 @@
 # **Introduction to structured programming**
-<<<<<<< HEAD
 -------------------------------------------------------------------------------------------------------------------------
 
 ## What is a paradigm?  
 
 [Structured programming](https://searchsoftwarequality.techtarget.com/definition/structured-programming-modular-programming) sometimes known as modular programmingis a programming paradigm that facilitates the creation of programs with readable code and reusable components. All modern programming languages support structured programming, but the mechanisms of support, like the syntax of the programming languages, varies.
-=======
--------------------------------------
--------------------------------------
-# Equipo
-Osiris Odett Cámara Salinas
-Victor Rodrigo Uribe Hernández 
-
-What is a paradigma?
---------------------------------------
-[Structured programming] (https://searchsoftwarequality.techtarget.com/definition/structured-programming-modular-programming) sometimes known as modular programmingis a programming paradigm that facilitates the creation of programs with readable code and reusable components. All modern programming languages support structured programming, but the mechanisms of support, like the syntax of the programming languages, varies.
->>>>>>> f3823456f5ecd5e6b661630521e81ff85300eb69
 
 Where modules or elements of code can be reused from a library, it may also be possible to build structured code using modules written in different languages, as long as they can obey a common module interface or application program interface (API) specification. However, when modules are reused, it's possible to compromise data security and governance, so it's important to define and enforce a privacy policy controlling the use of modules that bring with them implicit data access rights.
 According with TechTarget:
 > Structured programming encourages dividing an application program into a hierarchy of modules or autonomous elements, which may, in turn, contain other such elements. Within each element, code may be further structured using blocks of related logic designed to improve readability and maintainability. These may include case, which tests a variable against a set of values; Repeat, while and for, which construct loops that continue until a condition is met. In all structured programming languages, an unconditional transfer of control, or goto statement, is deprecated and sometimes not even available.    
-<<<<<<< HEAD
 Programming paradigms are a way to classify programming languages based on their features.
 
 ![Varieties of paradigms](https://media.geeksforgeeks.org/wp-content/uploads/1-344.png)
@@ -157,19 +144,6 @@ int main (){
 ): are terms or phrases appropriated for special use that may not be utilized in the creation of variable names.
 - [**Types of data**]( https://dl.sumdu.edu.ua/textbooks/103395/597162/index.html
 ): is a type together with a collection of operations to manipulate the type.
-=======
-
-Programming paradigms are a way to classify programming languages based on their features.
-#Declarative: 
-Programming by specifying the result you want, not how to get it. The programmer states only what the result should look like, not how to obtain it. No loops, no assignments, etc. Whatever engine that interprets this code is just supposed go get the desired information, and can use whatever approach it wants.
-
-## Data Representation
-- Identifier: is a string of alphanumeric characters that begins with an alphabetic character or an underscore character that are used to represent various programming elements such as variables, functions, arrays, structures, unions and so on.
-- Variables:  is a value that can change, depending on conditions or on information passed to the program.
-- Constants:  is a value that cannot be altered by the program during normal execution.
-- Reserved Words: are terms or phrases appropriated for special use that may not be utilized in the creation of variable names.
-- Types of data: is a type together with a collection of operations to manipulate the type.
->>>>>>> f3823456f5ecd5e6b661630521e81ff85300eb69
   - Primitive: are predefined types of data, which are supported by the programming language. 
     - Boolean (e.g. True or False)
     - Character (e.g. abc)
@@ -181,17 +155,11 @@ Programming by specifying the result you want, not how to get it. The programmer
     - Short (e.g. 0)
     - String (e.g. abc)
     - Void (e.g. no data)
-<<<<<<< HEAD
   - **Derivied**: is one whose values are composed of component values. One example is an array.
   - **User defined**: are mathematical models of a set of data values or information that share similar behavior or qualities and that can be specified and identified independent of specific implementations. An abstract data type is defined in term of its data items or its associated operations rather than by its implementation.  
    ![data type](https://2.bp.blogspot.com/-vKeEhq3QPvA/Wvv5BGg8g1I/AAAAAAAAMSQ/-iBoXVQcI0g0tCVuMSA5IlvqqeqxQ1hjgCLcBGAs/s1600/1.jpeg)
 - [**Memory space for each data type**](https://www.tutorialspoint.com/cprogramming/c_data_types.htm
 ):
-=======
-  - Composite: is one whose values are composed of component values. One example is an array.
-  - Abstract : are mathematical models of a set of data values or information that share similar behavior or qualities and that can be specified and identified independent of specific implementations. An abstract data type is defined in term of its data items or its associated operations rather than by its implementation.  
-- Memory space for each data type:
->>>>>>> f3823456f5ecd5e6b661630521e81ff85300eb69
   - Character: 1 byte
   - Unsigned character: 1 byte
   - Signed Character: 1 byte
@@ -201,11 +169,7 @@ Programming by specifying the result you want, not how to get it. The programmer
   - Unsigned Short: 2 bytes
   - Long: 8 bytes
   - Unsigned Long: 8 bytes
-<<<<<<< HEAD
 - [Range of values of each data type](https://xcbiology.files.wordpress.com/2015/07/table-e1438380260928.png):
-=======
-- Range of values of each data type:
->>>>>>> f3823456f5ecd5e6b661630521e81ff85300eb69
   - Character: -128 to 127 or 0 to 255
   - Unsigned character: 0 to 255
   - Signed Character: -128 to 127
@@ -215,7 +179,6 @@ Programming by specifying the result you want, not how to get it. The programmer
   - Unsigned Short: 0 to 65,535
   - Long: -9223372036854775808 to 9223372036854775807
   - Unsigned Long: 0 to 18446744073709551615
-<<<<<<< HEAD
 - [**Data type conversion**](https://developerinsider.co/type-casting-c-programming/
 ): refers to either implicitly or explicitly changing a value from one data type storage format to another, e.g. a 16-bit integer to a 32-bit integer.  
 Continued there is a graphic representation about data types from [Xin's story](https://datachenblog.com/2015/07/31/cc-data-type-and-memory-management/)
@@ -280,29 +243,3 @@ On the other hand, in the **centralized** all the sources and their versions are
 ## ***Equipo***:
 1. Osiris Cámara Salinas.
 2. Victor Uribe Hernandez. 
-=======
-- Data type conversion: refers to either implicitly or explicitly changing a value from one data type storage format to another, e.g. a 16-bit integer to a 32-bit integer.
-
-## Operators
-- Conditional: is an operator that returns one of two values depending on the result of an expression. It is represent with “?:”.
-- Logical: Returns the result of a boolean operation.
-  - Negation: It represents with “!”.
-  - AND: It represents with “&&”.
-  - Inclusive Or: It represents with “l l”.
-- Relationship: are used to compare values of two variables.
-  - Greater than “>”
-  - Greater than or equal to “>=”
-  - Less than “<”
-  - Less than or equal to “<=”
-  - Equal to “==”
-  - Not equal to “!=”
-
-
-# Equipo
-Osiris Odett Cámara Salinas
-Victor Rodrigo Uribe Hernández 
-
-
-
->>>>>>> f3823456f5ecd5e6b661630521e81ff85300eb69
-

@@ -244,7 +244,7 @@ Continued there is a graphic representation about data types from [Xin's story](
   
   Below is a descriptive image taken from the National Institute of [Open Schooling](http://oer.nios.ac.in/wiki/index.php/List_of_operators_used_in_JavaScript)
 
-![List of operators in c](https://lh3.googleusercontent.com/proxy/UtM0k2eyWDmdXxG5bV7e7sxtpvYMghuY18pxA8-IzV6T3w5aJ1R0xZr5c6hD5Oo0Nw5hPYwg_v6j6D31iXG2MwQvZMPWvmrbBwCLHvAB)
+![List of operators in c](https://4.bp.blogspot.com/-HkkiDDgQ93c/Uuor0-Uh4nI/AAAAAAAAAbE/oYKfenLfF3E/s1600/460.gif)
   
   ## Version control.  
   

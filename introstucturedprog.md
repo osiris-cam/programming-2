@@ -287,7 +287,112 @@ On the other hand, in the **centralized** all the sources and their versions are
 ---------------------------------------------------
 ## Chapter 2.
 
-## Chapter 3.
+### Getting a git repository
+1. Initializing a Repository in an Existing Directory:
+With the command “git init” create a new subdirectory named .git that contains all of your necessary repository files.
+2. Cloning an Existing Repository:
+With the command “git clone (URL)” with this you copy the files of github that 
+will be in this URL.
+
+### Recording Changes to the Repository
+
+![life cycle](https://uniwebsidad.com/static/libros/imagenes/pro-git/18333fig0201.png)
+The command **“git status”** is use to determine which files are in which state.
+When you create a new file in your computer, the file is ubicated in untracked, when you use “git add (name of the file)” is translated to unmodified, when you use **“git commit -m “any comment”** is translated to modified and after you can translated to staged with other commands.
+- You use **“git diff”** to watch, what was modificated in the file.
+- You use **“git rm”** to delete some files.
+- You use **“git mv”** to move files.
+
+### Viewing the Commit History
+**“Git log”** command is to look back and see what was happened.
+One of the more helpful options is -p, which shows the diff introduced in each commit. You can also use -2, which limits the output to only the last two entries.
+If you want to see some abbreviated stats for each commit, you can use the --stat option.
+Another really useful option is --pretty. This option changes the log output to formats other than the default. In this case the most interesting option is format, which allows you to specify your own log output format. This is especially useful when you’re generating output for machine parsing.
+
+### Git format:
+- %H: Commit hash
+
+- %h: Abbreviated commit hash
+
+- %T: Tree hash
+
+- %t: Abbreviated tree hash
+
+- %P: Parent hashes
+
+- %p: Abbreviated parent hashes
+
+- %an: Author name
+
+- %ae: Author email
+
+- %ad: Author date (format respects the --date=option)
+
+- %ar: Author date, relative
+
+- %cn: Committer name
+
+- %ce: Committer email
+
+- %cd: Committer date
+
+- %cr: Committer date, relative
+
+- %s: Subject
+
+### Common options to **git log**:
+- **-p:** Show the patch introduced with each commit.
+
+- **--stat:** Show statistics for files modified in each commit.
+
+- **--shortstat:** Display only the changed/insertions/deletions line from the --stat command.
+
+- **--name-only:**  Show the list of files modified after the commit information.
+
+- **--name-status:** Show the list of files affected with added/modified/deleted information as well.
+
+- **--abbrev-commit:** Show only the first few characters of the SHA-1 checksum instead of all 40.
+
+- **--relative-date:** Display the date in a relative format (for example, “2 weeks ago”) instead of using the full date format.
+
+- **--graph:** Display an ASCII graph of the branch and merge history beside the log output.
+
+- **--pretty**: Show commits in an alternate format. Options include oneline, short, full, fuller, and format (where you specify your own format).
+
+- **--oneline:** Shorthand for --pretty=oneline --abbrev-commit used together.
+
+### Undoing Things
+**“git commit --amend”** takes your staging area and uses it for the commit. If you’ve made no changes since your last commit. Remember, anything that is committed in Git can almost always be recovered. Even commits that were on branches that were deleted or commits that were overwritten with an --amend commit can be recovered.
+
+### Working with Remotes
+To be able to collaborate on any Git project, you need to know how to manage your remote repositories. Remote repositories are versions of your project that are hosted on the Internet or network somewhere. 
+To see which remote servers you have configured, you can run the “git remote” command. You can also specify -v, which shows you the URL that Git has stored for the shortname to be expanded. 
+To add a new remote Git repository as a short name you can reference easily, run **“git remote add [shortname] [url]”**.
+**“Git fetch {remote name}** The command goes out to that remote project and pulls down all the data from that remote project that you don’t have yet. After you do this, you should have references to all the branches from that remote, which you can merge in or inspect at any time.
+When you have your project at a point that you want to share, you have to push it upstream, you use **git push [remote-name] (branch-name]**.
+If you want to see more information about a particular remote, you can use the git remote show **[remote-name]** command.
+If you want to rename a reference, in newer versions of Git you can run git remote rename to change a remote’s shortname.
+
+## Tagging
+“git tag” This command lists the tags in alphabetical order; the order in which they appear has no real importance. 
+The -m specifies a tagging message, which is stored with the tag. If you don’t specify a message for an annotated tag, Git launches your editor so you can type it in. You can see the tag data along with the commit that was tagged by using the git show command:
+
+```
+$ git show v1.4
+tag v1.4
+Tagger: Ben Straub <ben@straub.cc>
+Date:   Sat May 3 20:19:12 2014 -0700
+
+my version 1.4
+
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Scott Chacon <schacon@gee-mail.com>
+Date:   Mon Mar 17 21:52:11 2008 -0700
+
+    Change version number
+```
+
+## Chapter 3: Branch.
 A branch represents an independent line of development, it's like creating a new workspace with your staging area and track record. New commits will be recorded independently in the branch history, which is known as forks in the project history (a term widely used in github).
 
 - **git branch**:

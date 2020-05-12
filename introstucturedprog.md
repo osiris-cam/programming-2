@@ -283,6 +283,102 @@ On the other hand, in the **centralized** all the sources and their versions are
 1. CVS.
 2. Subversion.
 
+# Gitbash commands.
+---------------------------------------------------
+## Chapter 2.
+
+## Chapter 3.
+A branch represents an independent line of development, it's like creating a new workspace with your staging area and track record. New commits will be recorded independently in the branch history, which is known as forks in the project history (a term widely used in github).
+
+- **git branch**:
+This command lists the local branches that exist. The branch you are currently working on is marked with an asterisk. The master branch is the branch that you start with in any project, and it is the one that is used as the main branch where the project is in its final state.
+
+- **git branch [branch]**:
+This command creates a branch with the name of your choice.
+
+- **git checkout [branch]**:
+If we were in the master branch, we had modified files without adding or added in the staging area, and we are located in the experiment branch with git checkout, these changes will be seen in the experiment branch. Until a commit is made, the changes will not belong to any branch.
+
+- **git branch -v:**
+This command displays the last commit on each branch.
+
+- **git checkout -b [branch]:**
+This code creates a branch and directly checks it. It is the code that is usually used since when a branch is created, it is usually checked out.
+
+- **git branch -d [branch]:**
+Delete a branch.
+
+- **git merge:**
+When only files have been added or removed in a branch, it is easy to link it to the main branch. The result will simply be the addition or subtraction of those files in the main one. When modifications are made to files, including changes to file names, git detects those changes and automatically adapts them
+
+- **git log:**
+shows all the commits that have led to the snapshot you are in.
+
+- **git remote:**
+The git command is used to connect to a remote repository. The following command shows the remote repositories that are currently configured.
+
+- **git remote -v:**
+This command allows you to connect the user with the local repository to a remote server:
+
+git remote add origin <93.188.160.58>
+
+- **git fetch:**
+This command allows the user to search for all objects in a remote repository that does not currently reside in the local directory they are working on. For example:
+git fetch origin.
+
+- **margetool:**
+Yes, instead of solving directly, you prefer to use a graphical tool. You can use the git mergetool command. This will start the corresponding visualization tool and will allow you to resolve conflicts with it.
+
+- **git branch - - merged:**
+To find out the status of the branches, it is to filter them and show only those that have been merged (or have not been) with the currently active branch
+
+- **git branch --no-merged:**
+To show all branches containing jobs without merging yet.
+
+- **git clone (url):**
+Clone a repository.
+
+- **git remote add (name) (url):**
+Configure a remote repository.
+
+- **git remote:**
+Lists the remote repositories.
+
+- **git push -u (remote) (rama):** Synchronize the branch with the remote one the first time.
+git push: send the new commits to the remote branch.
+
+- **git push -f (remote) (rama):**
+Replaces the remote branch with the history of the local branch.
+
+- **git pull:**
+Update the commits of the remote branch.
+
+- **git checkout (rama):**
+Unloads the remote branch if it does not exist locally.
+
+- **git fetch (remote):** 
+Update the information of the remote repository.
+
+- **git pass (remote) / (rama):**
+Pass local branch against remote
+
+### Solve conflicts between branches with merge.
+Conflicts appear when the same piece of code has been modified in two different branches.
+For example:
+```
+Auto-merging hola.txt
+CONFLICT (content): Merge conflict in hola.txt
+​Automatic merge failed; fix conflicts
+```
+We open the file hello.txt (we continue in the master branch) and now the text appears like this:
+```
+<<<<<<< HEAD
+Hola que tal
+=======
+Hola como estás
+>>>>>>> cambios
+```
+We remove the parts that git has added in the code, we solve the conflito created and we add the result to the staging area with git add.
 
 ## ***Equipo***:
 1. Osiris Cámara Salinas.

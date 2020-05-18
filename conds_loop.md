@@ -14,7 +14,7 @@ The typical loops are:
 Structures that repeat an instruction statement a specified number of times are called loops, and repeating the execution of an action execution is called iteration.
 To stop the execution of the loops, a stop condition is used.   
 
-## While:
+## [While](https://www.tutorialspoint.com/cprogramming/c_while_loop.htm):
 This loop is one in which the body of the loop repeats while a certain condition is met. When the while statement is executed, the first thing that happens is that the condition is evaluated (a boolean expression. If it is evaluated false, no action is taken and the program proceeds to the next statement in the loop. If the boolean expression is true the body of the loop is then executed.
 ![while](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRy9ZfrgBNgTXsJN44iTv1VFh6J8S_6_90__jFimOuFe5LoQdqr&usqp=CAU)
 Ejemplo:
@@ -58,7 +58,7 @@ For example:
   }
   ```
   
-## Do-while.
+## [Do-while](https://www.programiz.com/c-programming/c-do-while-loops).
 Evaluates the expression at the beginning to the beginning of the repeating loop, always used to create a pre-test loop. Pretest loops are also called input controlled loops.
 The body of the do-while loop always runs at least once even when the boolean expression is false.
 ![do-while](https://www.utn.edu.ec/reduca/programacion/estructuras/RepetitivasHagaMientras.png)   
@@ -75,7 +75,7 @@ int main (void){
 	
 }
  ```
- ## For.
+ ## [For](https://www.programiz.com/c-programming/c-for-loop).
 It is used in case, the number of iterations must be set. In the For it executes the actions of the body of the loop a specified number of times and automatically controls the number of iterations or steps through the body of the loop.
 Example:
  ```
@@ -91,7 +91,7 @@ int main (void){
 }
  ```  
 ## Jump statements.
-The jump sections that are used to influence the flow of execution during the execution of a loop statement.
+The [jump sections](https://www.programiz.com/c-programming/c-break-continue-statement) that are used to influence the flow of execution during the execution of a loop statement.
 
 ### Break.
 Programmers want to end a loop at a certain point in the body of the loop instead of waiting for the loop to end naturally on its input or output.

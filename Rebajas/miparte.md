@@ -1,4 +1,4 @@
-# **Classification of Arrays **
+# Classification of Arrays
 -------------------------------------------------------------------------------------------------------------------------
 ## [What is an array?](https://www.geeksforgeeks.org/introduction-to-arrays/)  
 

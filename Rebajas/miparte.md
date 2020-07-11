@@ -4,7 +4,7 @@
 
 When we talk about an array we are referring to an ordered and finite set of elements, they are also known as matrices (in mathematics) and tables (in financial calculations). They have the property of being ordered, that is, the first element, the second, the third, etc. can be identified. It is important to note that the elements that an array has are homogeneous (of the same data type), that is, that its elements can be of type string, integer type, floating.
 
-[image0](https://miro.medium.com/max/3184/1*X0Dg7QfSYtWhSAu-afi8-g.png)!
+![image0](https://miro.medium.com/max/3184/1*X0Dg7QfSYtWhSAu-afi8-g.png)
 
 ## [One-dimensional array](https://www.geeksforgeeks.org/introduction-to-arrays/)
 
@@ -13,7 +13,7 @@ Arrays consist of essential characteristics, for example they have a subscript (
 
 To better understand this concept, we show the following image:
 
-[imagen1](https://media.geeksforgeeks.org/wp-content/uploads/array-2.png)!
+![imagen1](https://media.geeksforgeeks.org/wp-content/uploads/array-2.png)
 
 The syntax of an array in C is as follows:
 
@@ -43,7 +43,7 @@ return 0;
 
 Because the memory of the pc is linear, a multidimensional array must be aligned for its arrangement in the storage. With these arrays it is possible to create them with more than one dimension, that is, it can be made up of m x n elements, such as three-dimensional, four-dimensional structures, etc.
 
-[imagen3](https://i.stack.imgur.com/whdnE.jpg)!
+![imagen3](https://i.stack.imgur.com/whdnE.jpg)
 
 Siintaxis in C:
 **VariableType ArrayName [dimension1] .[dimension2] [...] [dimensionN]**

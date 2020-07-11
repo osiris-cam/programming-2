@@ -109,3 +109,90 @@ for i in range(0,rows): ##The program do some math to get the resultant matrix
 				r[i][j] += m1[i][k]*m2[k][j]
 	print(r) ##Print result and finish the program!
 ```
+## Organization and Management of files
+
+### Data flow
+[Data flow](https://www.geeksforgeeks.org/what-is-dfddata-flow-diagram/) The flow of data of a system or a process is represented by DFD.
+ It also gives insight into the inputs and outputs of each entity and the process itself. DFD does 
+ not have control flow and no loops or decision rules are present.
+ This diata flow has 4 components:
+ * Process: Input to output transformation in a system takes place because of process function.
+ * Data flow: describes the information transferring between different parts of the systems.
+ * Warehouse: The data is stored in the warehouse for later use.
+ * Terminator: is an external entity that stands outside of the system and communicates with the system.
+
+### Files
+[Files](https://techterms.com/definition/file)A file is a collection of data stored in one unit, identified by a filename.
+ It can be a document, picture, audio or video stream, data library, application, or other collection of data.
+ There are a lot of types of files, but in this file we are going to focused only in the text and the binary files.
+ * [Text files](https://www.computerhope.com/jargon/t/textfile.htm): A text file is a computer file that only contains text and
+  has no special formatting such as bold text, italic text, images, etc.
+  ![Text files](https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/thumbnails/image/DR_SampleCSV_0.PNG)
+ 
+ * [Binary files](https://whatis.techtarget.com/definition/binary-file): A binary file is a file whose content must be interpreted by a program
+  or a hardware processor that understands in advance exactly how it is formatted. That is, the file is not in any externally identifiable
+  format so that any program that wanted to could look for certain data at a certain place within the file. A progam (or hardware processor)
+  has to know exactly how the data inside the file is laid out to make use of the file.
+  ![Binary files](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Wikipedia_favicon_hexdump.svg/1200px-Wikipedia_favicon_hexdump.svg.png)
+
+### File managements
+[File management](http://w.sunybroome.edu/basic-computer-skills/functions/file_management/2definitions.html) Is the process
+ and act of creating an organized structure in which you store information for easy retrieval. In this text we are going to be focused on
+ the file management of the C programs and the Python Programs.
+ * [C](https://www.geeksforgeeks.org/basics-file-handling-c/):
+   * Creation of a new file (fopen with attributes as “a” or “a+” or “w” or “w++”)
+   * Opening an existing file (fopen)
+   * Reading from file (fscanf or fgets)
+   * Writing to a file (fprintf or fputs)
+   * Moving to a specific location in a file (fseek, rewind)
+   * Closing a file (fclose)
+
+ * [Python](https://www.geeksforgeeks.org/file-handling-python/):
+   * Opening of an existing file(open ()), but we use the next commands to indicat what we are going to do with this file.
+     * “ r “, for reading.
+     * “ w “, for writing.
+     * “ a “, for appending.
+     * “ r+ “, for both reading and writing
+     For example:
+```
+     # a file named "pizza", will be opened with the reading mode. 
+     file = open('pizza.txt', 'r') 
+     # This will print every line one by one in the file 
+     for each in file: 
+	 print (each) 
+```
+   * Reading from a file (file. read())
+   For example
+```
+# Python code to illustrate read() mode 
+file = open("file.text", "r") 
+print file.read() 
+```
+   * Creating a file 
+```
+# Python code to create a file 
+file = open('pizza.txt','w') 
+file.write("This is the write command") 
+file.write("It allows us to write in a particular file") 
+file.close() 
+```
+   * Closing a file (file.close())
+   * Writing a file
+```
+# Python code to illustrate with() alongwith write() 
+with open("file.txt", "w") as f: 
+	f.write("Hello World!!!") 
+```
+   * Split a file
+```
+# Python code to illustrate split() function 
+with open("file.text", "r") as file: 
+	data = file.readlines() 
+	for line in data: 
+		word = line.split() 
+		print word 
+```
+
+## ***Equipo***:
+1. Osiris Cámara Salinas.
+2. Victor Uribe Hernandez. 

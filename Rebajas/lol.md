@@ -1,7 +1,9 @@
 # Review of python
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-| Elemento | Cantidad | Precio |
-| :------- | :------: | -----: |
-| Item 1   | 15       | 150€   |
-| Item 2   | 3250     | 23,65€ |
+| Variables         | Definition | Example      |
+| :---------------- | :--------: | ---------:   |
+| No declaration    | Integer    | age= 11      |
+| No declaration    | Float      | wei= 60.5    |
+| No declaration    | String     | name= 'Luis' |
+| No declaration    | boolean    | aF = True    |

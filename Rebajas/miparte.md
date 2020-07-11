@@ -77,7 +77,7 @@ for i in range(0,rows): ##This piece of code gonna add to list new  row
 	print(m2)
 
 ```
-### Acceso a elementos de matriz multidimensional.
+### Access to multidimensional matrix elements.
 To access some element of the multidimensional array, we only make use of its subscripts (depending on their dimension). If it is two-dimensional, we will use counters i and j, if they are three-dimensional we add counter k. Also to have access we will make the use of for loops depending on the dimension of the array.
 
 Example in c (nultiplication of matrix):
@@ -109,9 +109,9 @@ for i in range(0,rows): ##The program do some math to get the resultant matrix
 				r[i][j] += m1[i][k]*m2[k][j]
 	print(r) ##Print result and finish the program!
 ```
-## Organization and Management of files
+# Organization and Management of files
 
-### Data flow
+## Data flow
 [Data flow](https://www.geeksforgeeks.org/what-is-dfddata-flow-diagram/) The flow of data of a system or a process is represented by DFD.
  It also gives insight into the inputs and outputs of each entity and the process itself. DFD does 
  not have control flow and no loops or decision rules are present.
@@ -121,7 +121,7 @@ for i in range(0,rows): ##The program do some math to get the resultant matrix
  * Warehouse: The data is stored in the warehouse for later use.
  * Terminator: is an external entity that stands outside of the system and communicates with the system.
 
-### Files
+## Files
 [Files](https://techterms.com/definition/file)A file is a collection of data stored in one unit, identified by a filename.
  It can be a document, picture, audio or video stream, data library, application, or other collection of data.
  There are a lot of types of files, but in this file we are going to focused only in the text and the binary files.
@@ -135,7 +135,7 @@ for i in range(0,rows): ##The program do some math to get the resultant matrix
   has to know exactly how the data inside the file is laid out to make use of the file.
   ![Binary files](https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Wikipedia_favicon_hexdump.svg/1200px-Wikipedia_favicon_hexdump.svg.png)
 
-### File managements
+## File managements
 [File management](http://w.sunybroome.edu/basic-computer-skills/functions/file_management/2definitions.html) Is the process
  and act of creating an organized structure in which you store information for easy retrieval. In this text we are going to be focused on
  the file management of the C programs and the Python Programs.

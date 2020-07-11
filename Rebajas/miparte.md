@@ -195,4 +195,4 @@ with open("file.text", "r") as file:
 
 ## ***Equipo***:
 1. Osiris Cámara Salinas.
-2. Victor Uribe Hernandez. 
+2. Victor Uribe Hernandez.. 

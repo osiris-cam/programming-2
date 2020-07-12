@@ -219,3 +219,62 @@ do{
 	k++;	
 }	while (k<=10);
 ```
+## Structures.
+
+## Pointers.
+## Files.
+
+In C to work with files, it is important to declare the file:   
+**FILE** * fptr;
+
+| **File Mode**        | **Definition**                                     |
+| ----------           | ----------                                         |
+| r                    | Opens a file for reading.                          |
+| rb                   | Open for reading in binary mode.                   |
+| w                    | Open for writing.                                  |
+| wb                   | Open for writing in binary mode.                   |
+| a                    | Open for append.                                   |
+| rt                   | Open for both reading and writing.                 |
+| rbt                  | Open for both reading and writing in binary mode.  |
+| wt                   | Open for both reading and writing.                 |
+| wbt                  | Open for both reading and writing in binary mode.  |
+| at                   | Open for both reading and appending.               |
+
+Here it is important the modes so that when we want to open the file, we specify in which mode we want it.
+
+| **Function**        | **Definition**    | **Example**                |
+| :----------------   | :------------:    | ---------:                 |
+| fopen()              | open the file     | fopen("file1.txt","mode");|
+| fclose()             | close the file    | fclose(file1);            |
+
+### Reading and writing a file:
+
+To do those function we need to use **fprintf()** and **fscanf().**
+
+Example to write in a file:  
+
+```
+printf("Enter num: "); 
+   scanf("%d",&num);
+
+   fprintf(fptr,"%d",num); // here we write the input in the file
+   fclose(fptr);
+   ```
+Example to read a file:
+```
+  fscanf(fptr,"%d", &num);
+
+   printf("Value of n=%d", num);
+   fclose(fptr);
+   
+   ```
+ However, we can use the functions : fgetchar(): To obtain character by character of the file and fputc(): to write character by characyer in the file. 
+ 
+ For example:
+ ```
+ while (c1 != EOF)  //this happens while it is not the end of the text
+    { 
+        fputc(c1, file2); //each character is placed from file1 to file2
+        c1 = fgetc(file1); 
+    } 
+    ```

@@ -42,6 +42,21 @@ In this table they are ordered in order of priority:
 
 | **Logical operator** | **Definition** |
 | ----------           | ----------     |
-| AND                  | Conjunction    |
-| OR                   | Disjunction    |
-| NOT                  | Negation       |
+| not                  | Negation       |
+| and                  | Conjunction    |
+| or                   | Disjunction    |
+
+## Assignment operators.
+Esto es para reducir el codigo y es muy importante haber creado la variable primero.
+
+| **Assignment operator** | **Definition** |
+| ----------              | ----------     |
+| a+=b                    | a= a+b         |
+| a-=b                    | a= a-b         |
+| a*=b                    | a= a* b        |
+| a/=b                    | a= a/b         |
+| a%=b                    | a= a%b         |
+| a**=b                   | a= a**b        |
+
+
+

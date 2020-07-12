@@ -57,7 +57,7 @@ In this table they are ordered in order of priority:
 | or                   | Disjunction    |
 
 ## Assignment operators.
-Esto es para reducir el codigo y es muy importante haber creado la variable primero.
+This is to reduce the code and it is very important to have created the variable first.
 
 | **Assignment operator** | **Definition** |
 | ----------              | ----------     |
@@ -147,5 +147,48 @@ Sintaxis:
 | t                    | Opens in text mode. (default)                                                                                    |
 | b                    | b                                                                                                                |
 | +                    | Opens a file for updating (reading and writing)                                                                  |
+
+
+# Review of C.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## Variables 
+![imagen1](https://image.slidesharecdn.com/variables-150728175239-lva1-app6892/95/variables-in-c-and-c-language-7-638.jpg?cb=1438106020)
+## Arithmetic operators
+
+| **Arithmetic operators**     | **Definition** | **Example**             |
+| :----------------            | :------------: | ---------:              |
+| +                            | Sum            | a= 3 + 2  --> r= 5      |
+| -                            | Subtraction    | a= 3 - 2  --> r= 1      |
+| -                            | Denial         | a= -2     --> r= -2     |
+| *                            | Multiplication | a= 3 * 2  --> r= 6      |
+| **                           | Exponent       | a= 2 ** 6 --> r= 64     |
+| /                            | Division       | a= 10 / 2 --> r= 5      |
+| %                            | Modul          | a= 7 % 2   --> r= 1     |
+
+## Relationship operations
+
+| **Relationship operations**  | **Definition**       | **Example**             | **Boolean** |
+| :----------------            | :------------:       | ---------:              |  ---------: |   
+| >                            | Greater than         | 12 > 24                 | False       |
+| <                            | Smaller than         | 12 < 24                 | True        |
+| >=                           | Greater than or equal| 67 >= 72                | False       |
+| <=                           | Less than or equal to| 16 <= 17                | True        |
+| ==                           | Equal to             | 5==10                   | False       |
+| !=                           | Other than           | blue != verde           | True        |
+
+
+## Assignment operators.
+This is to reduce the code and it is very important to have created the variable first.
+
+| **Assignment operator** | **Definition** |
+| ----------              | ----------     |
+| a+=b                    | a= a+b         |
+| a-=b                    | a= a-b         |
+| a*=b                    | a= a* b        |
+| a/=b                    | a= a/b         |
+| a%=b                    | a= a%b         |
+| a**=b                   | a= a**b        |
 
 

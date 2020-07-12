@@ -28,7 +28,7 @@ First, is important to start with the variables because as we know in Python is 
 ## Relationship operations.
 
 | **Relationship operations**  | **Definition**       | **Example**             | **Boolean** |
-| :----------------            | :------------:       | ---------:              |             |   
+| :----------------            | :------------:       | ---------:              |  ---------: |   
 | >                            | Greater than         | 12 > 24                 | False       |
 | <                            | Smaller than         | 12 < 24                 | True        |
 | >=                           | Greater than or equal| 67 >= 72                | False       |

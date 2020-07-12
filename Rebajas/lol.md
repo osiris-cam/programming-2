@@ -35,3 +35,13 @@ First, is important to start with the variables because as we know in Python is 
 | <=                           | Less than or equal to| 16 <= 17                | True        |
 | ==                           | Equal to             | 5==10                   | False       |
 | !=                           | Other than           | blue != verde           | True        |
+
+
+## Logical operators.
+In this table they are ordered in order of priority:
+
+| **Logical operator** | **Definition** |
+| ----------           | ----------     |
+| AND                  | Conjunction    |
+| OR                   | Disjunction    |
+| NOT                  | Negation       |

@@ -79,6 +79,24 @@ This is to reduce the code and it is very important to have created the variable
 | len()               | Determine size of a list      | len(lista)             |
 | append()            | Add items to a list           | list.append(7)         |
 
+## Colecciones.
+### List.
+Lists are similar to arrays but are more flexible data structures. We can store numeric values, string type, boolean values, and even other lists. The lists are delimited by square brackets "[]" and the elements by commas ",".
+Sintaxis:
+List = []
+
+Example:
+```list= ["Juan","Isa","Victor"] ```
+
+If I don't want to print the whole list, I only take into consideration the index I want:
+```print(list[0])
+Output: Juan
+```
+#### Function with the lists:
+* len() : Determina cuantos elementos tiene una lista ---> **print(len(list)**  
+* append() : Agrega un nuevo elemento al final de la lista ----> **list.append(6)*
+* insert() : Si quiero agregar en un indice especifico --------> **list.insert(2,3)** (2 is the index and 3 the new element
+
 ## Conditionals.
 
 ### Condición anidad.

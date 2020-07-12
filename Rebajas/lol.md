@@ -108,6 +108,26 @@ c = input ("Enter a number:")
 r = c if (c> 50) else 0
 print (r)
 ```
+## Bucles.
+### For: 
+You must specify the variable where the items of the iterable element will be housed (list, dictionary, string, etc.):
+Sintaxis:
+
+**for** variable **in** iterable element:
+       body of iterations
+       
+Example:
+```
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9,10, 11, 12, 13, 14]
+for num in numbers:
+     if num% 2 == 0:
+         print (num)
+```
+### While:
+We write the keyword while followed by the condition and a colon
+Sintaxis:
+**while** condition:
+    body of iterations
 ## Files.
 
 | **Function**        | **Definition**    | **Example**               |
@@ -119,7 +139,7 @@ print (r)
 
 ## Files mode (when you open the file)
 
-| **Logical operator** | **Definition**                                                                                                   |
+| **File Mode**        | **Definition**                                                                                                   |
 | ----------           | ----------                                                                                                       |
 | r                    | Opens a file for reading. (default)                                                                              |
 | w                    | Opens a file for writing. Creates a new file if it does not exist or truncates the file if it exists.            |

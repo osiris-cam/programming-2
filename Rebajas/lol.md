@@ -191,4 +191,31 @@ This is to reduce the code and it is very important to have created the variable
 | a%=b                    | a= a%b         |
 | a**=b                   | a= a**b        |
 
+## Bucles:
 
+### For: 
+```
+int i;
+printf("FOR\n");
+for (i=1; i<=10;i++){
+	printf ("%i\n",i);
+}
+```
+### While:
+```
+int j=1;
+printf("WHILE:\n");
+while (j<=10){
+	printf ("%i\n",j);
+	j++;		
+}	  
+```
+### Do-While:
+```
+int k=1;
+printf("DO WHILE\n");
+do{
+	printf ("%i\n",k);
+	k++;	
+}	while (k<=10);
+```

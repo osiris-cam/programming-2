@@ -286,9 +286,9 @@ int main (void){
 | realloc       | Modifies the size of previously allocated space                                                           | ptr = realloc(ptr, x);           |
 | free          | Frees previously allocated space.                                                                         | free(ptr);		       |
 
-![Imagen 1][1]  ![Imagen 2][2]
-[1]: https://media.geeksforgeeks.org/wp-content/cdn-uploads/calloc-function-in-c.png
-[2]: https://media.geeksforgeeks.org/wp-content/cdn-uploads/realloc-function-in-c.png "scaphandre"
+![Imagen 1](https://media.geeksforgeeks.org/wp-content/cdn-uploads/calloc-function-in-c.png)
+
+![Imagen 1](https://media.geeksforgeeks.org/wp-content/cdn-uploads/realloc-function-in-c.png)
 
 [Example](https://www.programiz.com/c-programming/c-dynamic-memory-allocation):
 ```

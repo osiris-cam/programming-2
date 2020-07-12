@@ -259,7 +259,9 @@ int main (void){
 	return 0 ;
 }
  ```     
-## Pointers.
+## Memory allocation.
+
+
 ## Files.
 
 In C to work with files, it is important to declare the file:   

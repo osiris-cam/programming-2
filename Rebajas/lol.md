@@ -78,3 +78,30 @@ Esto es para reducir el codigo y es muy importante haber creado la variable prim
 | upper()             | Returns capital letters       | 'osiris'.upper()       |
 | len()               | Determine size of a list      | len(lista)             |
 | append()            | Add items to a list           | list.append(7)         |
+
+## Conditionals.
+
+### Condición anidad.
+ **if (condition):**
+     here are the orders that are executed if the condition is true
+ **elif:**
+      Here the second condition
+ **else:**
+     and here are the orders that are executed if the condition is-.
+     
+Example:
+```
+age = int (input ("How old are you?"))
+if age> = 18:
+     print ("You are of legal age")
+elif age <0:
+     print ("You cannot be a negative age")
+else:
+     print ("You are a minor")
+```
+### Ternary conditional:
+```
+c = input ("Enter a number:")
+r = c if (c> 50) else 0
+print (r)
+```

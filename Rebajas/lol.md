@@ -23,4 +23,15 @@ First, is important to start with the variables because as we know in Python is 
 | **                           | Exponent       | a= 2 ** 6 --> r= 64     |
 | /                            | Division       | a= 3.5 / 2 --> r= 1.75  |
 | //                           | Int division   | a= 3.5 / 2 --> r= 1     |
-| %                            | Modul          | a= 7 % 2   --> r= 1   |
+| %                            | Modul          | a= 7 % 2   --> r= 1     |
+
+## Relationship operations.
+
+| **Relationship operations**  | **Definition**       | **Example**             | **Boolean** |
+| :----------------            | :------------:       | ---------:              |             |   
+| >                            | Greater than         | 12 > 24                 | False       |
+| <                            | Smaller than         | 12 < 24                 | True        |
+| >=                           | Greater than or equal| 67 >= 72                | False       |
+| <=                           | Less than or equal to| 16 <= 17                | True        |
+| ==                           | Equal to             | 5==10                   | False       |
+| !=                           | Other than           | blue != verde           | True        |

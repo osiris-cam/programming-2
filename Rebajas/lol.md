@@ -235,7 +235,7 @@ struct structureName
 nameStructure.VariableWithinStruct
 
 Example:
-```
+``` 
 #include <stdio.h>
 struct Time {
 	float hours;
@@ -246,24 +246,19 @@ void conversionFi(struct Time first,struct Time second, struct Time *conv);
 
 float totalF=0, totalS=0, totalMinu=0;
 int main (void){
-	
-	 //guardar el valor de la diferencia aquí 
 	printf("FIRST time.\n");		
 	printf("Enter hours:\n ");		scanf("%f",&first.hours);
 	printf ("Enter minutes:\n");	scanf("%f",&first.minutes);
 	printf ("Enter seconds: \n");	scanf("%f",&first.seconds);
-	
 	printf("\nSECOND time.\n");		
 	printf("Enter hours:\n ");		scanf("%f",&second.hours);
 	printf ("Enter minutes:\n");	scanf("%f",&second.minutes);
 	printf ("Enter seconds: \n");	scanf("%f",&second.seconds);
-
 	conversionFi(first, second, &conv);
 	printf("%.2f", totalMinu);
 	return 0 ;
-
 }
-    ```
+ ```     
 ## Pointers.
 ## Files.
 

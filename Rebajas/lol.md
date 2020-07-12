@@ -111,7 +111,7 @@ print (r)
 ## Bucles.
 ### For: 
 You must specify the variable where the items of the iterable element will be housed (list, dictionary, string, etc.):  
-Sintaxis:
+Sintaxis:  
 **for** variable **in** iterable element:  
   body of iterations
        
@@ -124,7 +124,7 @@ for num in numbers:
 ```
 ### While:
 We write the keyword while followed by the condition and a colon:  
-Sintaxis:
+Sintaxis:  
 **while** condition:  
    body of iterations
 ## Files.

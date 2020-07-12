@@ -68,5 +68,13 @@ Esto es para reducir el codigo y es muy importante haber creado la variable prim
 | a%=b                    | a= a%b         |
 | a**=b                   | a= a**b        |
 
+## Integrated functions
 
-
+| **Function**        | **Definition**                | **Example**            |
+| :----------------   | :------------:                | ---------:             |
+| str()               | Pass a number to string       | n= str(11.9)           |
+| len()               | It counts elements of a string| h= len("Osiris")---> 6 |
+| lower()             | Returns lowercase string      | 'OSIRIS'.lower()       |
+| upper()             | Returns capital letters       | 'osiris'.upper()       |
+| len()               | Determine size of a list      | len(lista)             |
+| append()            | Add items to a list           | list.append(7)         |

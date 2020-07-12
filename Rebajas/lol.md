@@ -79,7 +79,7 @@ This is to reduce the code and it is very important to have created the variable
 | len()               | Determine size of a list      | len(lista)             |
 | append()            | Add items to a list           | list.append(7)         |
 
-## Colecciones.
+## Collections.
 ### List.
 Lists are similar to arrays but are more flexible data structures. We can store numeric values, string type, boolean values, and even other lists. The lists are delimited by square brackets "[]" and the elements by commas ",".
 Sintaxis:
@@ -94,7 +94,7 @@ Output: Juan
 ```
 #### Function with the lists:
 * len() : Determina cuantos elementos tiene una lista ---> **print(len(list)**  
-* append() : Agrega un nuevo elemento al final de la lista ----> **list.append(6)*
+* append() : Agrega un nuevo elemento al final de la lista ----> **list.append(6)**
 * insert() : Si quiero agregar en un indice especifico --------> **list.insert(2,3)** (2 is the index and 3 the new element
 
 ## Conditionals.
@@ -285,6 +285,10 @@ int main (void){
 | calloc        | Allocates spaces for an array of elements initializes them to zero and returns a pointer to the memory    | ptr = (castType*)calloc(n, size);| 
 | realloc       | Modifies the size of previously allocated space                                                           | ptr = realloc(ptr, x);           |
 | free          | Frees previously allocated space.                                                                         | free(ptr);		       |
+
+![Imagen 1][1]  ![Imagen 2][2]
+[1]: https://media.geeksforgeeks.org/wp-content/cdn-uploads/calloc-function-in-c.png
+[2]: https://media.geeksforgeeks.org/wp-content/cdn-uploads/realloc-function-in-c.png
 
 [Example](https://www.programiz.com/c-programming/c-dynamic-memory-allocation):
 ```

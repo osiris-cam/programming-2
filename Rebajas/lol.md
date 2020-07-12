@@ -110,13 +110,10 @@ print (r)
 ```
 ## Bucles.
 ### For: 
-You must specify the variable where the items of the iterable element will be housed (list, dictionary, string, etc.):
-Sintaxis:  
-
-
+You must specify the variable where the items of the iterable element will be housed (list, dictionary, string, etc.):  
+Sintaxis:
 **for** variable **in** iterable element:  
-
-       body of iterations
+  body of iterations
        
 Example:
 ```
@@ -127,11 +124,9 @@ for num in numbers:
 ```
 ### While:
 We write the keyword while followed by the condition and a colon:  
-
 Sintaxis:
 **while** condition:  
-
-    body of iterations
+   body of iterations
 ## Files.
 
 | **Function**        | **Definition**    | **Example**               |

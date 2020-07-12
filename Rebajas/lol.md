@@ -288,7 +288,7 @@ int main (void){
 
 ![Imagen 1][1]  ![Imagen 2][2]
 [1]: https://media.geeksforgeeks.org/wp-content/cdn-uploads/calloc-function-in-c.png
-[2]: https://media.geeksforgeeks.org/wp-content/cdn-uploads/realloc-function-in-c.png
+[2]: https://media.geeksforgeeks.org/wp-content/cdn-uploads/realloc-function-in-c.png "scaphandre"
 
 [Example](https://www.programiz.com/c-programming/c-dynamic-memory-allocation):
 ```

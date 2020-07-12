@@ -108,3 +108,25 @@ c = input ("Enter a number:")
 r = c if (c> 50) else 0
 print (r)
 ```
+## Files.
+
+| **Function**        | **Definition**    | **Example**               |
+| :----------------   | :------------:    | ---------:                |
+| open()              | open the file     | f = open("test.txt")      |
+| close()             | close the file    | f.close()                 |
+| write()             | write in the file | f.write("my first file\n")|
+| read()              | read the file     | f.read(4)                 |
+
+## Files mode (when you open the file)
+
+| **Logical operator** | **Definition**                                                                                                   |
+| ----------           | ----------                                                                                                       |
+| r                    | Opens a file for reading. (default)                                                                              |
+| w                    | Opens a file for writing. Creates a new file if it does not exist or truncates the file if it exists.            |
+| x                    | Opens a file for exclusive creation. If the file already exists, the operation fails.                            |
+| a                    | Opens a file for appending at the end of the file without truncating it. Creates a new file if it doesn't  exist.|
+| t                    | Opens in text mode. (default)                                                                                    |
+| b                    | b                                                                                                                |
+| +                    | Opens a file for updating (reading and writing)                                                                  |
+
+

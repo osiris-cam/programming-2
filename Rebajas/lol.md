@@ -83,11 +83,14 @@ Esto es para reducir el codigo y es muy importante haber creado la variable prim
 
 ### Condición anidad.
  **if (condition):**
-     here are the orders that are executed if the condition is true
+     here are the orders that are executed if the condition is true.  
+     
  **elif:**
-      Here the second condition
+      Here the second condition.  
+      
  **else:**
-     and here are the orders that are executed if the condition is-.
+     and here are the orders that are executed if the condition is-.  
+     
      
 Example:
 ```

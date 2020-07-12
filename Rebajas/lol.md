@@ -2,6 +2,16 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 First, is important to start with the variables because as we know in Python is easier work with them due we don't need the declaration like in C:
 
+## Input and output data.
+Here I also added the coment function becauase I don´t know in wich classification I can put it.
+
+| **Data**                        | **Example**                                    |
+| ----------                      | ----------                                     |
+| TypeOfVariable (input("text"))  | numero= int(input("Please, writhe the number"))|
+| print()                         | print(f"The number is {numero})                |
+| #                               | # This function only supports one line comments|
+| '''                             | # This function supports multi-line   comments |
+
 ## Assignment of values
 
 | **assignment of values**     | **Definition** | **Example**  |

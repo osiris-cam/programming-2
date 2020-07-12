@@ -222,13 +222,14 @@ do{
 ## Structures.
 A structure is defined like the collection of variables of different types under a single name.
 Syntax:  
+```
 struct structureName 
 {
     dataType member1;
     dataType member2;
     ...
 };
-
+```
 
 ## Pointers.
 ## Files.

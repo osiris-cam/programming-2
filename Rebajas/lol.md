@@ -261,6 +261,14 @@ int main (void){
  ```     
 ## Memory allocation.
 
+| **File Mode** | **Definition**                                                                                            |  **Syntax**  		       |
+| ----------    | ----------                                                                                                | -------------                    |
+| malloc        | Allocate memory request size of bytes and returns a pointer which can be casted into pointers of any form | ptr = (castType*) malloc(size);  |
+| calloc        | Allocates spaces for an array of elements initializes them to zero and returns a pointer to the memory    | ptr = (castType*)calloc(n, size);| 
+| realloc       | Modifies the size of previously allocated space                                                           | ptr = realloc(ptr, x);           |
+| free          | Frees previously allocated space.                                                                         | free(ptr);		       |
+
+## Files.
 
 ## Files.
 

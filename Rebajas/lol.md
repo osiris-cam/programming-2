@@ -220,6 +220,15 @@ do{
 }	while (k<=10);
 ```
 ## Structures.
+A structure is defined like the collection of variables of different types under a single name.
+Syntax:  
+struct structureName 
+{
+    dataType member1;
+    dataType member2;
+    ...
+};
+
 
 ## Pointers.
 ## Files.
@@ -268,7 +277,7 @@ Example to read a file:
    fclose(fptr);
    
    ```
- However, we can use the functions : fgetchar(): To obtain character by character of the file and fputc(): to write character by characyer in the file. 
+ However, we can use the functions : **fgetchar()**: To obtain character by character of the file and **fputc()**: to write character by characyer in the file. 
  
  For example:
  ```
